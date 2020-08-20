@@ -1,6 +1,6 @@
 "use strict";
 
-class CountdownTimer {
+class CountTimer {
   constructor(selector, targetDate) {
     this.selector = selector;
     this.targetDate = targetDate.getTime();
@@ -69,6 +69,6 @@ class CountdownTimer {
 const currentTime = Date.now();
 const clockTime = currentTime + 345600000;
 
-const newTimer = new CountdownTimer("#timer-1", new Date(clockTime));
+const newTimer = new CountTimer("#timer-1", new Date(clockTime));
 
 newTimer.start();
