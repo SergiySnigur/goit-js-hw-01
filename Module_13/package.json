@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
   },
-  "homepage": "https://SergiySnigur.github.io/goit-js-hw/Module_10",
+  "homepage": "https://SergiySnigur.github.io/goit-js-hw/Module_13",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
