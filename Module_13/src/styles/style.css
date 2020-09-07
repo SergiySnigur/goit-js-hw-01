@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.button {
+    display: block;
+    padding: 0;
+    background-color: transparent;
+}
+
+.prg {
+    margin: 0;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Form style______________ */
+.form-section {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.search-form input[name='query'] {
+    width: 70%;
+    height: 40px;
+    padding-left: 20px;
+}
+/* Galery style __________________*/
+
+.gallery__sizer,
+.gallery__item {
+    width: 32.2%;
+}
+
+.gallery__item {
+    background-color: #0c5b8034;
+    border: 1px solid #222;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 200ms linear;
+}
+
+.gallery__item:hover,
+.gallery__item:focus {
+    transform: scale(1.05, 1.05);
+}
+
+.stats {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats__item {
+    margin: 0;
+}
+
+.load-btn {
+    margin: 0 auto;
+    height: 40px;
+    width: 200px;
+    background-color: #0c5b8034;
+    cursor: pointer;
+    transition: background-color 200ms linear;
+}
+
+.to-top-btn {
+    position: fixed;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    right: 5px;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #0c5b8034;
+    transition: bottom 200ms linear;
+}
+
+.to-top-btn:hover,
+.to-top-btn:focus,
+.load-btn:hover,
+.load-btn:focus {
+    outline: none;
+    background-color: #07010734;
+}
+
+.to-top-btn:hover,
+.to-top-btn:focus {
+    bottom: 35px;
+}
+
+.to-top-btn i {
+    font-size: 50px;
+}

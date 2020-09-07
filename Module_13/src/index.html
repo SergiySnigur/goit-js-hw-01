@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>ImageFinder</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <section class="form-section">
+                <form class="search-form" id="search-form">
+                    <input
+                        type="text"
+                        name="query"
+                        autocomplete="off"
+                        placeholder="Search images..."
+                    />
+                </form>
+            </section>
+            <section class="galerry-section">
+                <ul class="gallery list" id="gallery">
+                    <li class="item gallery__sizer"></li>
+                </ul>
+                <button
+                    id="button-load"
+                    class="button load-btn visually-hidden"
+                >
+                    Load More
+                </button>
+
+                <button
+                    id="button-top"
+                    class="button to-top-btn visually-hidden"
+                >
+                    <i class="material-icons">arrow_upward</i>
+                </button>
+            </section>
+        </div>
+    </body>
+</html>
